@@ -5,6 +5,11 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"accessors.WorldRendererAccessor",
+		"accessors.BeaconBlockEntityRendererInvoker",
+		"accessors.FrustumInvoker"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
